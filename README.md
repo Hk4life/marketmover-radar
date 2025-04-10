@@ -1,6 +1,8 @@
-MarketMover Radar is an advanced real-time monitoring system for crypto markets and financial news. It leverages large language models (LLMs) through integration with LM Studio to perform in-depth trend analysis, sentiment tracking, and automated reporting.
+MarketMover Radar 
+is an advanced real-time monitoring system for crypto markets and financial news. It leverages large language models (LLMs) through integration with LM Studio to perform in-depth trend analysis, sentiment tracking, and automated reporting.
 
 🚀 Key Features
+
 📈 Live Data Aggregation from top crypto exchanges and news APIs
 
 🧠 LLM-Powered Analysis with support for up to 128k token contexts via LM Studio
@@ -18,15 +20,18 @@ MarketMover Radar is an advanced real-time monitoring system for crypto markets 
 📡 Advanced Monitoring with full logging and diagnostics
 
 🛠 Installation
+
 Clone the repository
 
 
 git clone https://github.com/Hk4life/marketmover-radar
+
 cd marketmover-radar
+
 Install dependencies
 
-
 pip install -r requirements.txt
+
 Download and set up LM Studio
 
 Download LM Studio
@@ -36,20 +41,9 @@ Load a compatible model (recommended: LLaMA 3 70B or similar)
 Launch the LM Studio server
 
 Configure environment variables
-Use .env file in the main/ directory to configure tour API keys
 
-Database
-USE_REDIS=True
-REDIS_HOST=localhost
-REDIS_PORT=6379
+Use .env file in the main/ directory to configure 
 
-LM Studio
-LM_STUDIO_HOST=localhost
-LM_STUDIO_PORT=1234
-
-App Config
-LOG_LEVEL=INFO
-DATA_REFRESH_INTERVAL=300
 
 ▶️ Usage
 
@@ -60,12 +54,15 @@ python main.py
 Optional startup flags:
 
 Use a custom config file
+
 python main.py --config config/custom_config.json
 
 Disable real-time websockets
+
 python main.py --no-websockets
 
 Disable scheduled tasks
+
 python main.py --no-scheduling
 
 📂 Reports
@@ -108,4 +105,5 @@ Real-time dashboard (web UI)
 Custom event-based alerts and push notifications
 
 🤝 Contribute
+
 Pull requests, feature ideas, and feedback are always welcome!
