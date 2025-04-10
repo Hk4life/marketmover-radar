@@ -38,22 +38,22 @@ Launch the LM Studio server
 Configure environment variables
 Create a .env file in the main/ directory:
 
-# API Keys
+API Keys
 COINGECKO_API_KEY=your_key_here
 BINANCE_API_KEY=your_key_here
 BINANCE_API_SECRET=your_secret_here
 NEWSAPI_KEY=your_key_here
 
-# Database
+Database
 USE_REDIS=True
 REDIS_HOST=localhost
 REDIS_PORT=6379
 
-# LM Studio
+LM Studio
 LM_STUDIO_HOST=localhost
 LM_STUDIO_PORT=1234
 
-# App Config
+App Config
 LOG_LEVEL=INFO
 DATA_REFRESH_INTERVAL=300
 
@@ -64,13 +64,13 @@ Start the application:
 python main.py
 Optional startup flags:
 
-# Use a custom config file
+Use a custom config file
 python main.py --config config/custom_config.json
 
-# Disable real-time websockets
+Disable real-time websockets
 python main.py --no-websockets
 
-# Disable scheduled tasks
+Disable scheduled tasks
 python main.py --no-scheduling
 
 📂 Reports
