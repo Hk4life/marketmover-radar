@@ -21,16 +21,12 @@ MarketMover Radar is an advanced real-time monitoring system for crypto markets 
 🛠 Installation
 Clone the repository
 
-bash
-Copy
-Edit
+
 git clone https://github.com/Hk4life/marketmover-radar
 cd marketmover-radar
 Install dependencies
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Download and set up LM Studio
 
@@ -43,9 +39,6 @@ Launch the LM Studio server
 Configure environment variables
 Create a .env file in the main/ directory:
 
-env
-Copy
-Edit
 # API Keys
 COINGECKO_API_KEY=your_key_here
 BINANCE_API_KEY=your_key_here
@@ -64,16 +57,14 @@ LM_STUDIO_PORT=1234
 # App Config
 LOG_LEVEL=INFO
 DATA_REFRESH_INTERVAL=300
+
 ▶️ Usage
+
 Start the application:
-bash
-Copy
-Edit
+
 python main.py
 Optional startup flags:
-bash
-Copy
-Edit
+
 # Use a custom config file
 python main.py --config config/custom_config.json
 
@@ -82,7 +73,9 @@ python main.py --no-websockets
 
 # Disable scheduled tasks
 python main.py --no-scheduling
+
 📂 Reports
+
 Generated reports are saved in the reports/ folder as HTML files. Each report includes:
 
 AI-generated narrative market analysis
@@ -94,6 +87,7 @@ Sentiment summaries and price impact analysis
 Forecasts based on aggregated data and model outputs
 
 🧱 System Architecture
+
 The system is built with loosely coupled, pluggable modules:
 
 Collectors – Fetch live data from APIs (crypto, news, etc.)
@@ -107,13 +101,13 @@ Visualization – Generates charts and narrative summaries
 LLM Bridge – Connects to LM Studio for natural language processing
 
 ✅ Testing
+
 Run unit tests with:
 
-bash
-Copy
-Edit
 python -m unittest discover tests
+
 🧭 Planned Features
+
 Multi-exchange and multi-asset support
 
 Deep social media trend mining
