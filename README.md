@@ -56,6 +56,7 @@ DATA_REFRESH_INTERVAL=300
 Start the application:
 
 python main.py
+
 Optional startup flags:
 
 Use a custom config file
@@ -93,11 +94,6 @@ Visualization – Generates charts and narrative summaries
 
 LLM Bridge – Connects to LM Studio for natural language processing
 
-✅ Testing
-
-Run unit tests with:
-
-python -m unittest discover tests
 
 🧭 Planned Features
 
