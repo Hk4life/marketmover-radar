@@ -28,13 +28,9 @@ git clone https://github.com/Hk4life/marketmover-radar
 
 cd marketmover-radar
 
-Install dependencies
-
 pip install -r requirements.txt
 
 Download and set up LM Studio
-
-Download LM Studio
 
 Load a compatible model (recommended: LLaMA 3 70B or similar)
 
