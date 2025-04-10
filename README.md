@@ -36,13 +36,7 @@ Load a compatible model (recommended: LLaMA 3 70B or similar)
 Launch the LM Studio server
 
 Configure environment variables
-Create a .env file in the main/ directory:
-
-API Keys
-COINGECKO_API_KEY=your_key_here
-BINANCE_API_KEY=your_key_here
-BINANCE_API_SECRET=your_secret_here
-NEWSAPI_KEY=your_key_here
+Use .env file in the main/ directory to configure tour API keys
 
 Database
 USE_REDIS=True
