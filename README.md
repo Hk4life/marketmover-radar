@@ -1,4 +1,3 @@
-MarketMover Radar
 MarketMover Radar is an advanced real-time monitoring system for crypto markets and financial news. It leverages large language models (LLMs) through integration with LM Studio to perform in-depth trend analysis, sentiment tracking, and automated reporting.
 
 🚀 Key Features
