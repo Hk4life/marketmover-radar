@@ -78,5 +78,6 @@ Advanced social media and sentiment analysis
 Integration with algorithmic trading systems
 Real-time web dashboards
 Custom notifications on significant events
-Contribute
+
+
 Contributions are welcome!
